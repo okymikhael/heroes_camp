@@ -3,7 +3,7 @@ form.addEventListener('submit', function(event) {
   event.preventDefault(); // Prevent form submission
   const data = formDataToText(new FormData(form));
   console.log(data)
-  window.location.href = 'https://wa.me/628970455703?text='+data;
+  window.location.href = 'https://wa.me/6281808009567?text='+data;
 });
 
 function formDataToText(formData) {
