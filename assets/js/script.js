@@ -7,7 +7,7 @@ form.addEventListener('submit', function(event) {
 });
 
 function formDataToText(formData) {
-    let text = 'Kak Gersom mau daftar Heroes Camp nih!%0aIni dataku yaa%0a%0a';
+    let text = 'Kak Gabriel mau daftar Heroes Camp nih!%0aIni dataku yaa%0a%0a';
     
     for (let pair of formData.entries()) {
       const [name, value] = pair;
